@@ -47,7 +47,7 @@ const Signup = () => {
         //handleSuccess(message);
         window.alert("Successfully Signed up");
         setTimeout(() => {
-          navigate("/Emotextresult");
+          navigate("/Afterlogin");
         }, 1000);
       } else {
         window.alert("Signup failed");
